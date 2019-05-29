@@ -1,0 +1,15 @@
+image: alpine:3.9
+
+stages:
+  - welcome
+
+before_script:
+  - uname -a
+
+hello world CI/CD job:
+  stage: welcome
+  services:
+    - docker:dind
+  script:
+    - cat /etc/alpine-release
+    - echo 'Hello gitlab CI/CD, MeetingServer - 2nd'
