@@ -23,6 +23,8 @@ As described in its [GitHub project](https://github.com/multiarch/qemu-user-stat
 this will register the *static QEMU binary* that exists in this base image
 for all supported processors.
 
+- [**example-arm64v8-alpine-golang**](https://gitlab.com/dev-to/example-arm64v8-alpine-golang)
+
 ## Layers and Dependencies graph
 
 ```text
