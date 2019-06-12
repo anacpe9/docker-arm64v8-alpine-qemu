@@ -1,7 +1,10 @@
 # Alpine + QEMU + ARM64 (aarch64)
 
-[![Build Status](https://img.shields.io/docker/build/rycus86/arm64v8-alpine-qemu.svg)](https://hub.docker.com/r/rycus86/arm64v8-alpine-qemu)
-[![Layers](https://images.microbadger.com/badges/image/rycus86/arm64v8-alpine-qemu.svg)](https://microbadger.com/images/rycus86/arm64v8-alpine-qemu "Get your own image badge on microbadger.com")
+![Docker Build Status](https://img.shields.io/docker/build/anacha/arm64v8-alpine-qemu.svg)
+
+[![](https://images.microbadger.com/badges/version/anacha/arm64v8-alpine-qemu.svg)](https://microbadger.com/images/anacha/arm64v8-alpine-qemu "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/anacha/arm64v8-alpine-qemu:4.svg)](https://microbadger.com/images/anacha/arm64v8-alpine-qemu:4 "Get your own version badge on microbadger.com")
+[![Layers](https://images.microbadger.com/badges/image/anacha/arm64v8-alpine-qemu.svg)](https://microbadger.com/images/anacha/arm64v8-alpine-qemu "Get your own image badge on microbadger.com")
 
 This project enables building a *Docker* image to allow running *64-bits ARM*
 *Alpine Linux* builds on non-arm hosts (like [Travis](https://travis-ci.org) build agents).
@@ -25,9 +28,10 @@ for all supported processors.
 ```text
 +-- arm64v8/alpine:3.9
     |
-    +-- qemu-aarch64-static:4.0.0
+    +-- qemu-aarch64-static:4.0.0-2
 ```
 
-| libray                    | base-1 image       |
-| ------------------------- | ------------------ |
-| qemu-aarch64-static:4.0.0 | arm64v8/alpine:3.9 |
+| libray                      | base-1 image       |
+| --------------------------- | ------------------ |
+| qemu-aarch64-static:4.0.0-2 | arm64v8/alpine:3.9 |
+| qemu-aarch64-static:4.0.0   | arm64v8/alpine:3.9 |
