@@ -28,7 +28,7 @@ for all supported processors.
 ## Layers and Dependencies graph
 
 ```text
-+-- arm64v8/alpine:3.9
++-- arm64v8/alpine:3.10
     |
     +-- qemu-aarch64-static:4.0.0-5
 ```
