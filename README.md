@@ -35,7 +35,7 @@ for all supported processors.
 
 | libray                      | base-1 image          |
 | --------------------------- | --------------------- |
-| qemu-aarch64-static:4.0.0-4 | arm64v8/alpine:3.10.1 |
+| qemu-aarch64-static:4.0.0-4 | arm64v8/alpine:3.10   |
 | qemu-aarch64-static:4.0.0-5 | arm64v8/alpine:3.9    |
 | qemu-aarch64-static:4.0.0-2 | arm64v8/alpine:3.9    |
 | qemu-aarch64-static:4.0.0   | arm64v8/alpine:3.9    |
