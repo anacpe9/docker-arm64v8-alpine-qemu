@@ -30,11 +30,12 @@ for all supported processors.
 ```text
 +-- arm64v8/alpine:3.10
     |
-    +-- qemu-aarch64-static:4.1.0-1
+    +-- qemu-aarch64-static:4.1.1-1
 ```
 
 | libray                      | base-1 image          |
 | --------------------------- | --------------------- |
+| qemu-aarch64-static:4.1.1-1 | arm64v8/alpine:3.10   |
 | qemu-aarch64-static:4.1.0-1 | arm64v8/alpine:3.10   |
 | qemu-aarch64-static:4.0.0-4 | arm64v8/alpine:3.10   |
 | qemu-aarch64-static:4.0.0-5 | arm64v8/alpine:3.9    |
